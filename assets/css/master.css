@@ -61,7 +61,7 @@ header{
     max-width: 1400px;
 }
 .HeaderBox{
-    padding: 20px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,7 +160,7 @@ main{
   .Txt4{
     font-size: 40px;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .Txt1::before{
     content: "";
@@ -189,7 +189,7 @@ main{
   }
  
   .pd-common{
-    padding: 50px 0px;
+    padding: 60px 0px;
   }
   .MarTopAd1{
     margin-top: -30px;
@@ -201,7 +201,7 @@ main{
   }
   .LinkTp1{
     display: inline-block;
-    padding: 15px 35px;
+    padding: 12px 35px;
     border-radius: 25px;
     color: #004E43;
     background-color: #CAE080;
@@ -209,6 +209,20 @@ main{
     border: 2px solid transparent;
   }
   .LinkTp1:hover{
+    background-color: #004E43;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .LinkTp2{
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 25px;
+    color: #004E43;
+    background-color: #CAE080;
+    text-align: center;
+    border: 2px solid transparent;
+  }
+  .LinkTp2:hover{
     background-color: #004E43;
     color: #fff;
     border: 2px solid #fff;
@@ -232,4 +246,62 @@ main{
   .AdBox3,
   .AdBox4{
     margin-top: -40px;
+  }
+  .scrolled header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
+  .scrolled header .headerbottom{
+    display: none;
+  }
+  .ChCnt{
+    background-color: #CAE080;
+    background-image: url(../images/chbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .ChannelBox{
+    margin-top: -38px;
+  }
+  .Txt5{
+    font-size: 40px;
+    color: #004E43;
+    margin-bottom: 15px;
+  }
+  .Txt6{
+    font-size: 17px;
+    margin: 0 auto;
+    max-width: 550px;
+    margin-bottom: 30px;
+  }
+  .CgBoxs{
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .ChBox{
+    padding: 30px;
+  }
+  .ChBox.ChBox1{
+    background-color: #004E43;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    color: #CAE080;
+  }
+  .ChIcon{
+    width: 100px;
+    height: 90px;
+    background-image: url(../images/retail.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .ChT1{
+    font-size: 35px;
+    margin: 10px 0px 15px 0px;
   }
