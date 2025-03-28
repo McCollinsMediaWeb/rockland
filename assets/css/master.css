@@ -27,6 +27,10 @@ body {
     overflow-x: hidden !important;
     max-width: 100% !important;
 }
+a{
+    text-decoration: none !important;
+    transition: 0.4s;
+}
 
 .hdt {
     font-family: 'Playfair Display';
@@ -49,12 +53,183 @@ body {
     font-size: 16px;
     color: #434343;
 }
+header{
+    position: relative;
+    z-index: 999;
+}
 .container{
     max-width: 1400px;
 }
 .HeaderBox{
-    padding: 10px 0px;
+    padding: 20px 0px 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.LinkBox a{
+    padding: 5px 15px;
+    color: #434343;
+    font-size: 17px;
+    position: relative;
+}
+.LinkBox a::after{
+    transition: 0.4s;
+}
+.LinkBox a.active,
+.LinkBox a:hover{
+    color: #489D79;
+}
+.LinkBox a.active::after,
+.LinkBox a:hover::after{
+    content: "";
+    background-color: #489D79;
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+.headerbottom{
+    width: 100%;
+    margin-top: -5px;
+}
+main{
+    margin-top: -25px;
+}
+.HeroBannerImage{
+    width: 100%;
+}
+.HdLogo{
+    max-width: 150px;
+}
+.icon-bar {
+    display: block;
+    height: 2px;
+    width: 25px;
+    background: #434343;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .icon-bar::before, .icon-bar::after {
+    background: #434343;
+    content: "";
+    height: 100%;
+    left: 4px;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .icon-bar::after {
+    bottom: -12px;
+    left: 8px;
+    top: auto;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  .HeroBanner{
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+  }
+  .HeroCnt{
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .Txt1{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 70px;
+  }
+  .Txt2{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .Txt3{
+    color: #CAE080;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .Txt4{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .Txt1::before{
+    content: "";
+    background-image: url(../images/lv2.png);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100% 100%;
+  }
+  .Txt1::after{
+    content: "";
+    background-image: url(../images/lv1.png);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: 100% 100%;
+  }
+  .HomeAbtus{
+    background-color: #489D79;
+    background-image: url(../images/bg2.png);
+    position: relative;
+  }
+ 
+  .pd-common{
+    padding: 50px 0px;
+  }
+  .MarTopAd1{
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+  }
+  .wd100{
+    width: 100%;
+  }
+  .LinkTp1{
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 25px;
+    color: #004E43;
+    background-color: #CAE080;
+    text-align: center;
+    border: 2px solid transparent;
+  }
+  .LinkTp1:hover{
+    background-color: #004E43;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .AdBox{
+    margin-top: -25px;
+    position: relative;
+  }
+
+  .AdBoxContent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .AdBox3,
+  .AdBox4{
+    margin-top: -40px;
+  }
