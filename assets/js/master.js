@@ -42,37 +42,35 @@ let currentIndex = 0;
 let isScrolling = false;
 let headerHeight = document.querySelector(".header").offsetHeight;
 
-// Function to smoothly auto-scroll to sections considering header height
-function smoothScroll(event) {
-    if (isScrolling) return;
 
-    isScrolling = true;
-    setTimeout(() => isScrolling = false, 800);
+// function smoothScroll(event) {
+//     if (isScrolling) return;
 
-    if (event.deltaY > 0) {
-        currentIndex = Math.min(currentIndex + 1, sections.length - 1);
-    } else {
-        currentIndex = Math.max(currentIndex - 1, 0);
-    }
+//     isScrolling = true;
+//     setTimeout(() => isScrolling = false, 800);
 
-    let targetPosition = sections[currentIndex].offsetTop - headerHeight;
-    window.scrollTo({ top: targetPosition, behavior: "smooth" });
-}
+//     if (event.deltaY > 0) {
+//         currentIndex = Math.min(currentIndex + 1, sections.length - 1);
+//     } else {
+//         currentIndex = Math.max(currentIndex - 1, 0);
+//     }
 
-// Function to update body class after 100px scroll
-function updateBodyClass() {
-    requestAnimationFrame(() => {
-        if (window.scrollY > 100) {
-            document.body.classList.add("scrolled");
-        } else {
-            document.body.classList.remove("scrolled");
-        }
-    });
-}
+//     let targetPosition = sections[currentIndex].offsetTop - headerHeight;
+//     window.scrollTo({ top: targetPosition, behavior: "smooth" });
+// }
 
-// Add event listeners
-window.addEventListener("wheel", smoothScroll);
-window.addEventListener("scroll", updateBodyClass);
+// function updateBodyClass() {
+//     requestAnimationFrame(() => {
+//         if (window.scrollY > 100) {
+//             document.body.classList.add("scrolled");
+//         } else {
+//             document.body.classList.remove("scrolled");
+//         }
+//     });
+// }
+
+// window.addEventListener("wheel", smoothScroll);
+// window.addEventListener("scroll", updateBodyClass);
 
 
 $(document).ready(function() {

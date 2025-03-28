@@ -338,3 +338,65 @@ main{
   .BrandsSliderWrap{
     margin-top: 40px;
   }
+  .FooterContent{
+    background-color: #004E43;
+    color: #fff;
+  }
+  .Ftrsecond{
+    margin-top: 30px;
+  }
+  .crowItem{
+    display: block;
+    position: relative;
+    padding: 8px 0px 8px 40px;
+    color: #fff;
+  }
+  .crowItem:hover{
+    color: #CAE080;
+  }
+  .crowItem.crowItem1::before{
+    content: "";
+    background-image: url(../images/location.png);
+    width: 19px;
+    height: 25px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+  .crowItem.crowItem2::before{
+    content: "";
+    background-image: url(../images/call.png);
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 11px;
+  }
+  .crowItem.crowItem3::before{
+    content: "";
+    background-image: url(../images/email.png);
+    width: 20px;
+    height: 18px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .footerLogo{
+    max-width: 200px;
+  }
+  footer .Txt1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px;
+  }
+  footer .Txt1::before,
+  footer .Txt1::after {
+    width: 30px;
+    height: 30px;
+  }
