@@ -294,12 +294,22 @@ main{
     text-align: center;
     color: #CAE080;
   }
+  .ChBox.ChBox2{
+    background-color: #489D79;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    color: #fff;
+  }
   .ChIcon{
     width: 100px;
     height: 90px;
     background-image: url(../images/retail.png);
     background-size: 100% 100%;
     margin: 0 auto;
+  }
+  .ChIcon.ChIcon2{
+    background-image: url(../images/hospitality.png);
   }
   .ChT1{
     font-size: 35px;
