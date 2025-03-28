@@ -315,3 +315,26 @@ main{
     font-size: 35px;
     margin: 10px 0px 15px 0px;
   }
+  .slick-dots li{
+
+    background-color: #489D79;
+    opacity: .5;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+  }
+  .slick-dots li button{
+    width: 15px;
+    height: 15px;
+  }
+  .slick-dots li.slick-active{
+    opacity: 1;
+  }
+  .slick-dots {
+    position: relative;
+    bottom: auto;
+    margin-top:35px;
+  }
+  .BrandsSliderWrap{
+    margin-top: 40px;
+  }
