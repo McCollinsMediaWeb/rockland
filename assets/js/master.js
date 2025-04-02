@@ -45,23 +45,23 @@ let isScrolling = false;
 let headerHeight = document.querySelector(".header").offsetHeight;
 
 
-function smoothScroll(event) {
-    if (window.innerWidth <= 1024) return; // Only activate on desktop
+// function smoothScroll(event) {
+//     if (window.innerWidth <= 1024) return; // Only activate on desktop
 
-    if (isScrolling) return;
+//     if (isScrolling) return;
 
-    isScrolling = true;
-    setTimeout(() => isScrolling = false, 800);
+//     isScrolling = true;
+//     setTimeout(() => isScrolling = false, 800);
 
-    if (event.deltaY > 0) {
-        currentIndex = Math.min(currentIndex + 1, sections.length - 1);
-    } else {
-        currentIndex = Math.max(currentIndex - 1, 0);
-    }
+//     if (event.deltaY > 0) {
+//         currentIndex = Math.min(currentIndex + 1, sections.length - 1);
+//     } else {
+//         currentIndex = Math.max(currentIndex - 1, 0);
+//     }
 
-    let targetPosition = sections[currentIndex].offsetTop - headerHeight;
-    window.scrollTo({ top: targetPosition, behavior: "smooth" });
-}
+//     let targetPosition = sections[currentIndex].offsetTop - headerHeight;
+//     window.scrollTo({ top: targetPosition, behavior: "smooth" });
+// }
 
 function updateBodyClass() {
     requestAnimationFrame(() => {
@@ -73,7 +73,7 @@ function updateBodyClass() {
     });
 }
 
-window.addEventListener("wheel", smoothScroll);
+// window.addEventListener("wheel", smoothScroll);
 window.addEventListener("scroll", updateBodyClass);
 
 function adjustPopupContentHeight() {
