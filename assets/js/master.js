@@ -1,3 +1,5 @@
+
+document.getElementById("yearspan").textContent = new Date().getFullYear();
 function setScreenHeight() {
     const header = document.querySelector('.header'); // Adjust selector as needed
     const screenHeight = window.innerHeight;
@@ -72,6 +74,25 @@ let headerHeight = document.querySelector(".header").offsetHeight;
 // window.addEventListener("wheel", smoothScroll);
 // window.addEventListener("scroll", updateBodyClass);
 
+function adjustPopupContentHeight() {
+    const popupHeader = document.querySelector('.popupHeader');
+    const popupContent = document.querySelector('.popupContent');
+
+    if (popupHeader && popupContent) {
+        const headerHeight = popupHeader.offsetHeight;
+        const totalHeight = window.innerHeight;
+        const contentHeight = totalHeight - headerHeight;
+
+        popupContent.style.height = `${contentHeight}px`;
+    }
+}
+
+// Run on page load and window resize
+window.addEventListener('load', adjustPopupContentHeight);
+window.addEventListener('resize', adjustPopupContentHeight);
+
+
+
 
 $(document).ready(function() {
     $('.brands').slick({
@@ -107,5 +128,8 @@ $(document).ready(function() {
                 }
             }
         ]
+    });
+    $(".ActivateMenu").click(function() {
+        $("body").toggleClass("popupactivated");
     });
 });

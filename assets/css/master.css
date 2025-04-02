@@ -1,402 +1,613 @@
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('PlayfairDisplay-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Adelle Rg';
-    src: url('Adelle-Regular.woff2') format('woff2'),
-        url('Adelle-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Adelle Rg';
+  src: url('Adelle-Regular.woff2') format('woff2'),
+    url('Adelle-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 html,
 body {
-    margin: 0 !important;
-    padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
-    position: relative;
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+  position: relative;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }
-a{
-    text-decoration: none !important;
-    transition: 0.4s;
+
+a {
+  text-decoration: none !important;
+  transition: 0.4s;
 }
 
 .hdt {
-    font-family: 'Playfair Display';
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .smt {
-    font-family: 'Adelle Rg';
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Adelle Rg';
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    font-optical-sizing: auto;
-    font-family: 'Adelle Rg';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.3;
-    font-size: 16px;
-    color: #434343;
+  font-optical-sizing: auto;
+  font-family: 'Adelle Rg';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #434343;
 }
-header{
-    position: relative;
-    z-index: 999;
-}
-.container{
-    max-width: 1400px;
-}
-.HeaderBox{
-    padding: 15px 0px 15px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.LinkBox a{
-    padding: 5px 15px;
-    color: #434343;
-    font-size: 17px;
-    position: relative;
-}
-.LinkBox a::after{
-    transition: 0.4s;
-}
-.LinkBox a.active,
-.LinkBox a:hover{
-    color: #489D79;
-}
-.LinkBox a.active::after,
-.LinkBox a:hover::after{
-    content: "";
-    background-color: #489D79;
-    height: 2px;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    bottom: 0;
-}
-.headerbottom{
-    width: 100%;
-    margin-top: -5px;
-}
-main{
-    margin-top: -25px;
-}
-.HeroBannerImage{
-    width: 100%;
-}
-.HdLogo{
-    max-width: 150px;
-}
-.icon-bar {
-    display: block;
-    height: 2px;
-    width: 25px;
-    background: #434343;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
-  .icon-bar::before, .icon-bar::after {
-    background: #434343;
-    content: "";
-    height: 100%;
-    left: 4px;
-    position: absolute;
-    bottom: -6px;
-    right: 0;
-    transition: all 0.3s ease 0s;
-  }
-  .icon-bar::after {
-    bottom: -12px;
-    left: 8px;
-    top: auto;
-  }
-  .cursor-pointer{
-    cursor: pointer;
-  }
-  .HeroBanner{
-    background-image: url(../images/bg1.jpg);
-    background-size: cover;
-  }
-  .HeroCnt{
-    padding: 50px 0px 0px 0px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-  }
-  .Txt1{
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 30px;
-    position: relative;
-    display: inline-block;
-    padding: 0px 70px;
-  }
-  .Txt2{
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 30px;
-  }
-  .Txt3{
-    color: #CAE080;
-    font-size: 17px;
-    margin-bottom: 20px;
-  }
-  .Txt4{
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  .Txt1::before{
-    content: "";
-    background-image: url(../images/lv2.png);
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-size: 100% 100%;
-  }
-  .Txt1::after{
-    content: "";
-    background-image: url(../images/lv1.png);
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-size: 100% 100%;
-  }
-  .HomeAbtus{
-    background-color: #489D79;
-    background-image: url(../images/bg2.png);
-    position: relative;
-  }
- 
-  .pd-common{
-    padding: 60px 0px;
-  }
-  .MarTopAd1{
-    margin-top: -30px;
-    position: relative;
-    z-index: 1;
-  }
-  .wd100{
-    width: 100%;
-  }
-  .LinkTp1{
-    display: inline-block;
-    padding: 12px 35px;
-    border-radius: 25px;
-    color: #004E43;
-    background-color: #CAE080;
-    text-align: center;
-    border: 2px solid transparent;
-  }
-  .LinkTp1:hover{
-    background-color: #004E43;
-    color: #fff;
-    border: 2px solid #fff;
-  }
-  .LinkTp2{
-    display: inline-block;
-    padding: 12px 35px;
-    border-radius: 25px;
-    color: #004E43;
-    background-color: #CAE080;
-    text-align: center;
-    border: 2px solid transparent;
-  }
-  .LinkTp2:hover{
-    background-color: #004E43;
-    color: #fff;
-    border: 2px solid #fff;
-  }
-  .AdBox{
-    margin-top: -25px;
-    position: relative;
-  }
 
-  .AdBoxContent{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-  }
-  .AdBox3,
-  .AdBox4{
-    margin-top: -40px;
-  }
-  .scrolled header{
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    background-color: #fff;
-  }
-  .scrolled header .headerbottom{
+header {
+  position: relative;
+  z-index: 999;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.HeaderBox {
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LinkBox a {
+  padding: 5px 15px;
+  color: #434343;
+  font-size: 17px;
+  position: relative;
+}
+
+.LinkBox a::after {
+  transition: 0.4s;
+}
+
+.LinkBox a.active,
+.LinkBox a:hover {
+  color: #489D79;
+}
+
+.LinkBox a.active::after,
+.LinkBox a:hover::after {
+  content: "";
+  background-color: #489D79;
+  height: 2px;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+}
+
+.headerbottom {
+  width: 100%;
+  margin-top: -5px;
+}
+
+main {
+  margin-top: -25px;
+}
+
+.HeroBannerImage {
+  width: 100%;
+}
+
+.HdLogo {
+  max-width: 150px;
+}
+
+.icon-bar {
+  display: block;
+  height: 2px;
+  width: 25px;
+  background: #434343;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.icon-bar::before,
+.icon-bar::after {
+  background: #434343;
+  content: "";
+  height: 100%;
+  left: 4px;
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.icon-bar::after {
+  bottom: -12px;
+  left: 8px;
+  top: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.HeroBanner {
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+}
+
+.HeroCnt {
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.Txt1 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+  padding: 0px 70px;
+}
+
+.Txt2 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.Txt3 {
+  color: #CAE080;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.Txt4 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Txt1::before {
+  content: "";
+  background-image: url(../images/lv2.png);
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 100% 100%;
+}
+
+.Txt1::after {
+  content: "";
+  background-image: url(../images/lv1.png);
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: 100% 100%;
+}
+
+.HomeAbtus {
+  background-color: #489D79;
+  background-image: url(../images/bg2.png);
+  position: relative;
+}
+
+.pd-common {
+  padding: 60px 0px;
+}
+
+.MarTopAd1 {
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+}
+
+.wd100 {
+  width: 100%;
+}
+
+.LinkTp1 {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 25px;
+  color: #004E43;
+  background-color: #CAE080;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.LinkTp1:hover {
+  background-color: #004E43;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.LinkTp2 {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 25px;
+  color: #004E43;
+  background-color: #CAE080;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.LinkTp2:hover {
+  background-color: #004E43;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.AdBox {
+  margin-top: -25px;
+  position: relative;
+}
+
+.AdBoxContent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.AdBox3,
+.AdBox4 {
+  margin-top: -40px;
+}
+
+.scrolled header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.scrolled header .headerbottom {
+  display: none;
+}
+
+.ChCnt {
+  background-color: #CAE080;
+  background-image: url(../images/chbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.ChannelBox {
+  margin-top: -38px;
+}
+
+.Txt5 {
+  font-size: 40px;
+  color: #004E43;
+  margin-bottom: 15px;
+}
+
+.Txt6 {
+  font-size: 17px;
+  margin: 0 auto;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.CgBoxs {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.ChBox {
+  padding: 30px;
+}
+
+.ChBox.ChBox1 {
+  background-color: #004E43;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  text-align: center;
+  color: #CAE080;
+}
+
+.ChBox.ChBox2 {
+  background-color: #489D79;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  text-align: center;
+  color: #fff;
+}
+
+.ChIcon {
+  width: 90px;
+  height: 80px;
+  background-image: url(../images/retail.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+
+.ChIcon.ChIcon2 {
+  background-image: url(../images/hospitality.png);
+}
+
+.ChT1 {
+  font-size: 35px;
+  margin: 10px 0px 15px 0px;
+}
+
+.slick-dots li {
+
+  background-color: #489D79;
+  opacity: .5;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li.slick-active {
+  opacity: 1;
+}
+
+.slick-dots {
+  position: relative;
+  bottom: auto;
+  margin-top: 35px;
+}
+
+.BrandsSliderWrap {
+  margin-top: 40px;
+}
+
+.FooterContent {
+  background-color: #004E43;
+  color: #fff;
+}
+
+.Ftrsecond {
+  margin-top: 30px;
+}
+
+.crowItem {
+  display: block;
+  position: relative;
+  padding: 8px 0px 8px 40px;
+  color: #fff;
+}
+
+.crowItem:hover {
+  color: #CAE080;
+}
+
+.crowItem.crowItem1::before {
+  content: "";
+  background-image: url(../images/location.png);
+  width: 19px;
+  height: 25px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.crowItem.crowItem2::before {
+  content: "";
+  background-image: url(../images/call.png);
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+
+.crowItem.crowItem3::before {
+  content: "";
+  background-image: url(../images/email.png);
+  width: 20px;
+  height: 18px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.footerLogo {
+  max-width: 200px;
+}
+
+footer .Txt1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+footer .Txt1::before,
+footer .Txt1::after {
+  width: 30px;
+  height: 30px;
+}
+
+.LinkBxHd {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.LinkBoxItems a {
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.LinkBoxItems a:hover {
+  color: #CAE080;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.scSpan {
+  display: inline-block;
+  background-size: 100% 100%;
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+}
+
+.scSpan.facebook {
+  background-image: url(../images/facebook.png);
+  width: 13px;
+}
+
+.scSpan.instagram {
+  background-image: url(../images/instagram.png);
+
+}
+
+.scSpan.tiktok {
+  background-image: url(../images/tiktok.png);
+  width: 18px;
+}
+
+.scSpan.youtube {
+  background-image: url(../images/youtube.png);
+}
+.FooterBottomContent{
+  background-color: #CAE080;
+  padding: 20px 0px;
+  color: #004E43;
+}
+.FooterBottomContent a{
+  color:  #004E43;
+
+}
+.FooterBottomContent a:hover{
+  color:  #004E43;
+  
+}
+.FooterBottom{
+  margin-top: -25px;
+}
+
+.HeaderRight svg{
+  width: 27px;
+  height: 27px;
+}
+
+.PlayButton1{
+  width: 70px;
+  height: 70px;
+  background-image: url(../images/playbutton.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+.PlayButton1:hover{
+  background-color: #CAE080;
+}
+.MenuModal{
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  display: none;
+}
+.popupactivated .MenuModal{
+  display: block;
+}
+.MenuListHd{
+  padding: 20px;
+}
+.MenuListItems{
+  padding: 20px;
+  background-color: #CAE080;
+}
+.MenuList{
+  margin-left: auto;
+}
+.PopUpHeaderBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.PopUpHeaderBoxLeft img{
+  max-width: 120px;
+}
+.PopUpHeaderBoxMiddle {
+  font-size: 25px;
+  font-weight: 500;
+  color: #004E43;
+}
+.CloseButton {
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/close.png");
+  background-size: 100% 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.MenuItems a{
+  font-size: 25px;
+  color: #004E43;
+  padding: 10px 0px;
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .HeaderMiddle{
     display: none;
   }
-  .ChCnt{
-    background-color: #CAE080;
-    background-image: url(../images/chbg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+  .headerbottom {
+    margin-top: -25px;
+  }
+  .HdLogo {
+    max-width: 120px;
+  }
+  .HeroCnt {
+    padding: 15px;
     align-items: center;
   }
-  .ChannelBox{
-    margin-top: -38px;
-  }
-  .Txt5{
-    font-size: 40px;
-    color: #004E43;
-    margin-bottom: 15px;
-  }
-  .Txt6{
-    font-size: 17px;
-    margin: 0 auto;
-    max-width: 550px;
-    margin-bottom: 30px;
-  }
-  .CgBoxs{
-    margin: 0 auto;
-    max-width: 900px;
-  }
-  .ChBox{
-    padding: 30px;
-  }
-  .ChBox.ChBox1{
-    background-color: #004E43;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    text-align: center;
-    color: #CAE080;
-  }
-  .ChBox.ChBox2{
-    background-color: #489D79;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    text-align: center;
-    color: #fff;
-  }
-  .ChIcon{
-    width: 100px;
-    height: 90px;
-    background-image: url(../images/retail.png);
-    background-size: 100% 100%;
-    margin: 0 auto;
-  }
-  .ChIcon.ChIcon2{
-    background-image: url(../images/hospitality.png);
-  }
-  .ChT1{
-    font-size: 35px;
-    margin: 10px 0px 15px 0px;
-  }
-  .slick-dots li{
-
-    background-color: #489D79;
-    opacity: .5;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-  }
-  .slick-dots li button{
-    width: 15px;
-    height: 15px;
-  }
-  .slick-dots li.slick-active{
-    opacity: 1;
-  }
-  .slick-dots {
-    position: relative;
-    bottom: auto;
-    margin-top:35px;
-  }
-  .BrandsSliderWrap{
-    margin-top: 40px;
-  }
-  .FooterContent{
-    background-color: #004E43;
-    color: #fff;
-  }
-  .Ftrsecond{
-    margin-top: 30px;
-  }
-  .crowItem{
-    display: block;
-    position: relative;
-    padding: 8px 0px 8px 40px;
-    color: #fff;
-  }
-  .crowItem:hover{
-    color: #CAE080;
-  }
-  .crowItem.crowItem1::before{
-    content: "";
-    background-image: url(../images/location.png);
-    width: 19px;
-    height: 25px;
-    background-size: 100% 100%;
-    position: absolute;
-    left: 0;
-    top: 25px;
-  }
-  .crowItem.crowItem2::before{
-    content: "";
-    background-image: url(../images/call.png);
-    width: 20px;
-    height: 20px;
-    background-size: 100% 100%;
-    position: absolute;
-    left: 0;
-    top: 11px;
-  }
-  .crowItem.crowItem3::before{
-    content: "";
-    background-image: url(../images/email.png);
-    width: 20px;
-    height: 18px;
-    background-size: 100% 100%;
-    position: absolute;
-    left: 0;
-    top: 10px;
-  }
-  .footerLogo{
-    max-width: 200px;
-  }
-  footer .Txt1 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 0;
-    position: relative;
-    display: inline-block;
-    padding: 0px 50px;
-  }
-  footer .Txt1::before,
-  footer .Txt1::after {
-    width: 30px;
-    height: 30px;
-  }
+}
