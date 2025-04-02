@@ -45,34 +45,36 @@ let isScrolling = false;
 let headerHeight = document.querySelector(".header").offsetHeight;
 
 
-// function smoothScroll(event) {
-//     if (isScrolling) return;
+function smoothScroll(event) {
+    if (window.innerWidth <= 1024) return; // Only activate on desktop
 
-//     isScrolling = true;
-//     setTimeout(() => isScrolling = false, 800);
+    if (isScrolling) return;
 
-//     if (event.deltaY > 0) {
-//         currentIndex = Math.min(currentIndex + 1, sections.length - 1);
-//     } else {
-//         currentIndex = Math.max(currentIndex - 1, 0);
-//     }
+    isScrolling = true;
+    setTimeout(() => isScrolling = false, 800);
 
-//     let targetPosition = sections[currentIndex].offsetTop - headerHeight;
-//     window.scrollTo({ top: targetPosition, behavior: "smooth" });
-// }
+    if (event.deltaY > 0) {
+        currentIndex = Math.min(currentIndex + 1, sections.length - 1);
+    } else {
+        currentIndex = Math.max(currentIndex - 1, 0);
+    }
 
-// function updateBodyClass() {
-//     requestAnimationFrame(() => {
-//         if (window.scrollY > 100) {
-//             document.body.classList.add("scrolled");
-//         } else {
-//             document.body.classList.remove("scrolled");
-//         }
-//     });
-// }
+    let targetPosition = sections[currentIndex].offsetTop - headerHeight;
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
+}
 
-// window.addEventListener("wheel", smoothScroll);
-// window.addEventListener("scroll", updateBodyClass);
+function updateBodyClass() {
+    requestAnimationFrame(() => {
+        if (window.scrollY > 100) {
+            document.body.classList.add("scrolled");
+        } else {
+            document.body.classList.remove("scrolled");
+        }
+    });
+}
+
+window.addEventListener("wheel", smoothScroll);
+window.addEventListener("scroll", updateBodyClass);
 
 function adjustPopupContentHeight() {
     const popupHeader = document.querySelector('.popupHeader');

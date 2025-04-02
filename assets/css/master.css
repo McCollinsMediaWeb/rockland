@@ -598,7 +598,51 @@ footer .Txt1::after {
 .HeroCnt img{
   max-width: 100%;
 }
+.mob-only {
+  display: none;
+}
+.halo-sticky-toolbar-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+  box-shadow: 0 0 9px rgba(0,0,0,.12);
+  transition: transform .6s;
+  background: #fff;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+.bottom-bar--list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+}
+.bottom-bar--list li > a {
+  padding: 7px 2px;
+  display: block;
+  pointer-events: auto;
+  text-align: center;
+  color: #242424;
+}
+.bottom-bar--list .icon img {
+  max-width: 25px;
+}
+.bottom-bar--list .icon + .text {
+  margin-top: 6px;
+  line-height: 1;
+  font-size: 11px;
+  color: #004E43;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 1000px) {
+  .mob-only {
+    display: block !important;
+  }
   .d-only{
     display: none;
   }
@@ -623,5 +667,22 @@ footer .Txt1::after {
   .Txt1::after {
     width: 30px;
     height: 30px;
+  }
+  .HeaderBox {
+    padding: 10px 0px 10px 0px;
+  }
+  .pd-common {
+    padding: 25px 0px;
+  }
+  .Txt2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .Txt3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  LinkTp1 {
+    padding: 8px 20px;
   }
 }
