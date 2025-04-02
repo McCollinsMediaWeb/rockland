@@ -701,7 +701,7 @@ footer .Txt1::after {
     background-image: none;
   }
   .Txt5 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
   .Txt6{
@@ -724,5 +724,60 @@ footer .Txt1::after {
   }
   .ChBox {
     padding: 15px;
+  }
+  .slick-dots li button {
+    width: 12px;
+    height: 12px;
+  }
+  .slick-dots li {
+    width: 12px;
+    height: 12px;
+  }
+  .footerLogo {
+    max-width: 150px;
+  }
+  footer .Txt1 {
+    font-size: 17px;
+    padding: 0px 35px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .Ftrsecond {
+    margin-top: 20px;
+  }
+  .mobileHalf{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .mobileFull{
+    margin-bottom: 25px;
+  }
+  .LinkBxHd {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .LinkBoxItems a {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .FtrThird{
+    text-align: center;
+  margin-top: 25px;
+  }
+  .crowItem.crowItem1::before {
+    width: 16px;
+    height: 20px;
+  }
+  .crowItem.crowItem2::before {
+    width: 16px;
+    height: 17px;
+  }
+  .crowItem.crowItem3::before {
+    width: 16px;
+    height: 14px;
+  }
+  .FooterBottomContent {
+    padding: 15px 0px;
+    margin-top: -7px;
   }
 }
