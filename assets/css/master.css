@@ -595,8 +595,13 @@ footer .Txt1::after {
   padding: 10px 0px;
   display: block;
 }
-
+.HeroCnt img{
+  max-width: 100%;
+}
 @media only screen and (max-width: 1000px) {
+  .d-only{
+    display: none;
+  }
   .HeaderMiddle{
     display: none;
   }
@@ -609,5 +614,14 @@ footer .Txt1::after {
   .HeroCnt {
     padding: 15px;
     align-items: center;
+  }
+  .Txt1 {
+    font-size: 19px;
+    padding: 0px 40px;
+  }
+  .Txt1::before,
+  .Txt1::after {
+    width: 30px;
+    height: 30px;
   }
 }
