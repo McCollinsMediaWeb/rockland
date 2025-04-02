@@ -333,7 +333,7 @@ main {
 .ChBox.ChBox1 {
   background-color: #004E43;
   margin-top: -7px;
-  margin-bottom: -5px;
+  margin-bottom: -7px;
   text-align: center;
   color: #CAE080;
 }
@@ -341,7 +341,7 @@ main {
 .ChBox.ChBox2 {
   background-color: #489D79;
   margin-top: -7px;
-  margin-bottom: -5px;
+  margin-bottom: -7px;
   text-align: center;
   color: #fff;
 }
@@ -638,7 +638,12 @@ footer .Txt1::after {
   color: #004E43;
   font-weight: 500;
 }
-
+.brandItem{
+  padding: 0px 15px;
+}
+.brandItem img{
+  max-width: 100%;
+}
 @media only screen and (max-width: 1000px) {
   .mob-only {
     display: block !important;
@@ -682,7 +687,42 @@ footer .Txt1::after {
     font-size: 15px;
     margin-bottom: 10px;
   }
-  LinkTp1 {
+  .LinkTp1 {
     padding: 8px 20px;
+  }
+  .Txt4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .LinkTp2 {
+    padding: 8px 20px;
+  }
+  .ChCnt{
+    background-image: none;
+  }
+  .Txt5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .Txt6{
+    margin-bottom: 15px;
+  }
+  .ChIcon {
+    width: 70px;
+    height: 60px;
+  }
+  .ChT1 {
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+  }
+  .ChannelBox {
+    margin-top: -15px;
+  }
+  .PlayButton1 {
+    width: 50px;
+    height: 50px;
+  }
+  .ChBox {
+    padding: 15px;
   }
 }
