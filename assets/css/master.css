@@ -780,6 +780,16 @@ footer .Txt1::after {
     padding: 15px 0px;
     margin-top: -7px;
   }
+  html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+  body {
+    position: relative;
+    overflow-x: hidden !important;
+  }
 }
 
 .per100{
