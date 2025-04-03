@@ -910,3 +910,48 @@ body.stickthebar .NavigationBarSlide {
   object-fit: contain;
   max-width: 200px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .PtT1 {
+    font-size: 25px;
+  }
+  .HdSt1T2 {
+    font-size: 25px;
+  }
+  .HdSt1T1 {
+    width: 80px;
+    height: 31px;
+  }
+  .CategiriesItems {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+  }
+  .CategiriesItem{
+    flex: none;
+  }
+  .CategiriesItemLink {
+    padding: 8px 25px;
+    background-color: #F7F5F2;
+    font-size: 16px;
+    margin: 0px 5px;
+  }
+  .NavigationBarSlide {
+    padding: 15px 0px;
+  }
+  .CImg2 {
+    height: 100px;
+  }
+  .CgLink {
+    padding: 8px 20px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .CGT1 {
+    font-size: 15px;
+    -webkit-line-clamp: 10;
+  }
+}
