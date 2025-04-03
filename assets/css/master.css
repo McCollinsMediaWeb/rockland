@@ -970,7 +970,10 @@ color: #fff;
     width: 20px;
     height: 20px;
   }
-  .collectionGrid:last-child{
+  .collectionGrid{
+    margin-bottom: 15px;
+  }
+  .col-md-6:last-child .collectionGrid{
     margin-bottom: 0;
   }
   
@@ -1020,4 +1023,34 @@ opacity: 1;
 }
 .brandHigWrap .slick-dots li.slick-active{
   background-color: #004E43;
+}
+
+@media only screen and (max-width: 1000px) {
+  .brT1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .BrandHtSliderWrap{
+    margin: 0 -15px;
+  }
+  .brandHighlites {
+    margin-bottom: 0;
+  }
+  .brandHigWrap .slick-dots{
+    margin-top: 15px;
+  }
+  .HtBoxCntLeft {
+    flex: 0 0 50px; 
+  }
+  .HtBoxCntLeft img{
+    width: 50px;
+    height: 50px;
+  }
+  .HtBoxCnt{
+    padding: 30px 15px 15px 15px;
+  }
+  .HtBoxDesc{
+    padding-left: 10px;
+    font-size: 13px;
+  }
 }
