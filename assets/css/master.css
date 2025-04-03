@@ -950,4 +950,7 @@ color: #fff;
     font-size: 15px;
     -webkit-line-clamp: 10;
   }
+  .CategiriesItemLink.active::after{
+    content: none;
+  }
 }
