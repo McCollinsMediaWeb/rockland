@@ -95,7 +95,6 @@ window.addEventListener('resize', adjustPopupContentHeight);
 
 
 
-
 $(document).ready(function() {
     $('.brands').slick({
         dots: true,
@@ -131,6 +130,15 @@ $(document).ready(function() {
             }
         ]
     });
+    
+    // $('.CategiriesItems').slick({
+    //     dots: false,
+    //     infinite: false,
+    //     speed: 300,
+    //     slidesToShow: 1,
+    //     centerMode: false,
+    //     variableWidth: true
+    // });
     $(".ActivateMenu").click(function() {
         $("body").toggleClass("popupactivated");
     });
