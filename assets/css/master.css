@@ -741,10 +741,10 @@ footer .Txt1::after {
     max-width: 150px;
   }
   footer .Txt1 {
-    font-size: 17px;
-    padding: 0px 35px;
-    text-align: center;
-    margin-top: 15px;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
   }
   .Ftrsecond {
     margin-top: 20px;
@@ -793,6 +793,9 @@ footer .Txt1::after {
   body {
     position: relative;
     overflow-x: hidden !important;
+  }
+  footer .Txt1::before, footer .Txt1::after{
+    content: none;
   }
 }
 
