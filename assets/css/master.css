@@ -953,4 +953,9 @@ color: #fff;
   .CategiriesItemLink.active::after{
     content: none;
   }
+  .FooterBottomContent {
+    padding-bottom: 76px;
+    font-size: 14px;
+    text-align: center;
+  }
 }
