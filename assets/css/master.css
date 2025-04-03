@@ -644,6 +644,10 @@ footer .Txt1::after {
 .brandItem img{
   max-width: 100%;
 }
+.bottom-bar {
+  padding: 3px 15px;
+  min-height: 60px;
+}
 @media only screen and (max-width: 1000px) {
   .mob-only {
     display: block !important;
@@ -808,4 +812,14 @@ footer .Txt1::after {
 .PtT1{
   font-size: 40px;
   color: #004E43;
+}
+.HdSt1T1{
+  width: 111px;
+  height: 50px;
+  background-image: url(../images/leaves.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.HdSt1T2{
+  text-align: center;
 }
