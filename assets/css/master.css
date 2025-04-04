@@ -905,6 +905,28 @@ color: #fff;
 }
 .collectionGrid{
   margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.collectionGridImg::before{
+  content: "";
+  width: 100%;
+  height: 12px;
+  background-size: 100% 100%;
+  background-image: url(../images/headerbottom.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.collectionGridImg::after{
+  content: "";
+  width: 100%;
+  height: 12px;
+  background-size: 100% 100%;
+  background-image: url(../images/headertop.png);
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .CImg2{
