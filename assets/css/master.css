@@ -1104,4 +1104,7 @@ opacity: 1;
   .slick-dots{
     display: none !important;
   }
+  .pd-abt{
+    padding: 0 20px;
+  }
 }
