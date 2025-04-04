@@ -1110,4 +1110,7 @@ opacity: 1;
   .PageHeaderContent{
     padding: 80px 0px;
   }
+  .template-cominsoon  .headerbottom {
+    margin-top: -32px;
+  }
 }
