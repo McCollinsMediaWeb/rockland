@@ -879,9 +879,10 @@ color: #fff;
   font-size: 16px;
   line-height: 1.5;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-align: left;
 }
 .Bg1{
   background-color: #F7F5F2;
