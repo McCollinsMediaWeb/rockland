@@ -599,7 +599,7 @@ footer .Txt1::after {
   display: block;
 }
 .HeroCnt img{
-  max-width: 100%;
+  max-width: 100% !important;
 }
 .mob-only {
   display: none !important;
