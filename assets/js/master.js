@@ -26,7 +26,7 @@ function setScreenHeight1() {
 
     screenElements.forEach(element => {
         element.style.maxHeight = `${screenHeight - headerHeight+200}px`;
-        element.style.maxWidth = `${containerWidth - 120}px`;
+        element.style.maxWidth = `${containerWidth - 20}px`;
     });
     
     if (heroBanner) {
