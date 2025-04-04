@@ -101,7 +101,7 @@ $(document).ready(function() {
         infinite: false,
         speed: 300,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
@@ -125,7 +125,7 @@ $(document).ready(function() {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             }
         ]
