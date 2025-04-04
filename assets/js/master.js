@@ -100,8 +100,8 @@ $(document).ready(function() {
         dots: true,
         infinite: false,
         speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
