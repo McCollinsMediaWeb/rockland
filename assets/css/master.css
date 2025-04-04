@@ -1102,4 +1102,7 @@ opacity: 1;
     padding: 15px;
     padding-bottom: 30px;
   }
+  .pdMobile60{
+    padding-top: 60px !important;
+  }
 }
