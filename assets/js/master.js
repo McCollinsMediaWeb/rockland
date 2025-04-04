@@ -118,14 +118,16 @@ $(document).ready(function() {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    centerMode: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    centerMode: true
                 }
             }
         ]
