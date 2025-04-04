@@ -327,7 +327,7 @@ main {
 
 .CgBoxs {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1050px;
 }
 
 .ChBox {
@@ -360,6 +360,9 @@ main {
 
 .ChIcon.ChIcon2 {
   background-image: url(../images/hospitality.png);
+}
+.ChIcon.ChIcon3 {
+  background-image: url(../images/cart.png);
 }
 
 .ChT1 {
