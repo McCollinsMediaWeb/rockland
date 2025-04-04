@@ -672,7 +672,7 @@ footer .Txt1::after {
     align-items: center;
   }
   .Txt1 {
-    font-size: 19px;
+    font-size: 23px;
     padding: 0px 40px;
   }
   .Txt1::before,
@@ -1106,5 +1106,8 @@ opacity: 1;
   }
   .pd-abt{
     padding: 0 20px;
+  }
+  .PageHeaderContent{
+    padding: 80px 0px;
   }
 }
