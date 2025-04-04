@@ -15,11 +15,7 @@
   font-style: normal;
   font-display: swap;
 }
-main{
-  overflow-x: hidden;
-  position: relative;
-  max-width: 100% !important;
-}
+
 html,
 body {
   margin: 0 !important;
