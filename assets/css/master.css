@@ -1071,4 +1071,7 @@ opacity: 1;
     padding-left: 10px;
     font-size: 13px;
   }
+  .FooterContent{
+    padding-bottom: 45px;
+  }
 }
