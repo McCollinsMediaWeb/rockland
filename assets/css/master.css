@@ -700,6 +700,7 @@ footer .Txt1::after {
   }
   .LinkTp1 {
     padding: 8px 20px;
+    font-size: 14px;
   }
   .Txt4 {
     font-size: 30px;
@@ -707,6 +708,7 @@ footer .Txt1::after {
   }
   .LinkTp2 {
     padding: 8px 20px;
+    font-size: 14px;
   }
   .ChCnt{
     background-image: none;
