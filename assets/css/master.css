@@ -1101,4 +1101,7 @@ opacity: 1;
   .pdMobile60{
     padding-top: 60px !important;
   }
+  .slick-dots{
+    display: none !important;
+  }
 }
