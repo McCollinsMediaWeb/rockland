@@ -1131,7 +1131,7 @@ opacity: 1;
 .BnrTp1.con{
   background-image: url(../images/contact.jpg);
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
 }
 .BannerContentWrap{
 position: absolute;
@@ -1182,7 +1182,7 @@ text-align: center;
 }
 @media only screen and (max-width: 1000px) {
   .BnT1{
-    font-size: 25px;
+    font-size: 30px;
   }
   .BnT2{
     font-size: 15px;
