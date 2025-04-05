@@ -1180,6 +1180,16 @@ text-align: center;
   top: 0;
   z-index: 1;
 }
+.mar15{
+  margin-bottom: 15px;
+}
+.abSec2T1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.abSec2T2{
+  font-size: 17px;
+}
 @media only screen and (max-width: 1000px) {
   .BnT1{
     font-size: 30px;
