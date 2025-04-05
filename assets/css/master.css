@@ -1200,4 +1200,17 @@ text-align: center;
   .BnrTp1::after{
     height: 25px;
   }
+  .abSec2T1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .abSec2T2 {
+    font-size: 16px;
+  }
+  .abSec2{
+    text-align: center;
+  }
+  .abSec2 .LinkTp1{
+    margin-bottom: 20px;
+  }
 }
