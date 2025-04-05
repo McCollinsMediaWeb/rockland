@@ -1128,6 +1128,11 @@ opacity: 1;
   background-size: cover;
   background-position: center bottom;
 }
+.BnrTp1.con{
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
 .BannerContentWrap{
 position: absolute;
 left: 0;
