@@ -1162,7 +1162,7 @@ text-align: center;
 }
 .BnrTp1::after{
   content: "";
-  background-image: url(../images/headertop.png);
+  background-image: url(../images/abtop1.png);
   width: 100%;
   height: 15px;
   position: absolute;
