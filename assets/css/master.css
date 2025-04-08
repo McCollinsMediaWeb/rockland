@@ -1466,6 +1466,14 @@ color: #004E43;
 .cntpage .crowItem {
   font-size: 20px;
 }
+.contactformmain input ,
+.contactformmain textarea ,
+.contactformmain select{
+  display: block;
+  background-color: #F2EAE2;
+  padding: 10px;
+  margin-bottom: 12px;
+}
 @media only screen and (max-width: 1000px) {
   .BnT1{
     font-size: 30px;
