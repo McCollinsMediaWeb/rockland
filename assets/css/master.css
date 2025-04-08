@@ -787,7 +787,6 @@ footer .Txt1::after {
   }
   .FooterBottomContent {
     padding: 15px 0px;
-    margin-top: -7px;
   }
   html {
     width: 100%;
@@ -1288,6 +1287,138 @@ footer{
 .Ad2{
   font-size: 17px;
 }
+.disSec2{
+  text-align: center;
+}
+.disSec2 .container{
+  max-width: 1100px;
+}
+.dbanner{
+  margin-top: 15px;
+}
+.DsIconsWrp{
+  background-color: #F7F4F1;
+}
+.DsT1{
+  font-size: 40px;
+  color: #489D79;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 120px;
+  margin-bottom: 25px;
+}
+.DsT1::before{
+content: "";
+background-size: 100% 100%;
+background-image: url(../images/dl1.png);
+width: 80px;
+height: 80px;
+position: absolute;
+left: 0px;
+top: 50%;
+width: 70px;
+margin-top: -35px;
+}
+.DsT1::after{
+  content: "";
+  background-size: 100% 100%;
+  background-image: url(../images/dl2.png);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  width: 70px;
+  margin-top: -35px;
+}
+.EiTitle{
+  font-size: 20px;
+  color: #004E43;
+  margin-bottom: 10px;
+}
+.EiBox{
+  padding: 20px;
+  background-color: #EEE8E1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.EiIcon{
+  background-size: 100% 100%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.EiIcon.EiIcon1{
+  background-image: url(../images/e1.png);
+}
+.EiIcon.EiIcon2{
+  background-image: url(../images/e2.png);
+}
+.EiIcon.EiIcon3{
+  background-image: url(../images/e3.png);
+}
+.EiIcon.EiIcon4{
+  background-image: url(../images/e4.png);
+}
+.EiIcon.EiIcon5{
+  background-image: url(../images/e5.png);
+}
+.EiIcon.EiIcon6{
+  background-image: url(../images/e6.png);
+  width: 50px;
+}
+.DsT2{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.DsChannelBox .Txt5{
+margin-bottom: 0;
+}
+.Txt5.white{
+  color: #242424;
+}
+.DsChannelBox .Txt6{
+max-width: 900px;
+margin-top: 20px;
+}
+.mx100{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.map1Box{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  position: relative;
+}
+.MapLink1{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.MapLink1 div div{
+  display: inline-block;
+  background-color: #489D79;
+  padding: 15px;
+  font-size: 35px;
+  color: #fff;
+}
+.MapLink1 div div:first-child{
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
   .BnT1{
     font-size: 30px;
@@ -1356,4 +1487,33 @@ text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
   }
+  .DsT1::before,
+  .DsT1::after{
+    content: none;
+  }
+  .DsT1 {
+    font-size: 18px;
+    padding:0;
+    margin-bottom: 15px;
+  }
+  .EiIcon {
+    width: 60px;
+    height: 60px;
+  }
+  .retailBox .pd-common{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .MapLink1 div div {
+    padding:10px;
+    font-size: 20px;
+  }
+  .EiBox {
+    padding:25px;
+    margin-bottom: 20px;
+  }
+  .DsChannelBox{
+    margin-top: 0 !important;
+  }
+  
 }
