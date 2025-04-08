@@ -1119,6 +1119,7 @@ opacity: 1;
   width: 100%;
   background-color: #fff;
   position: relative;
+  height: 100vh;
 }
 .BnrTp1.abt{
   background-image: url(../images/abbg.jpg);
@@ -1190,6 +1191,103 @@ text-align: center;
 .abSec2T2{
   font-size: 17px;
 }
+.IconBoxWrap{
+  padding-top: 40px;
+}
+.IconBoxWrap .container{
+max-width: 900px;
+}
+.IconBoxWrap .container img{
+  width: 100%;
+}
+.bg2{
+  background-color: #F2EAE2;
+  margin-top: -1px;
+  position: relative;
+}
+.retailBox .Txt6{
+  max-width: 700px;
+}
+.AbtHdFlex{
+  display: flex;
+  align-items: center;
+}
+.AbtHdLeft{
+  flex: 0 0 120px;
+  max-width: 120px;
+}
+.HtBoxCntRight{
+  flex: 1;
+}
+.jicon{
+  background-size: 100% 100%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.jicon.jicon1{
+background-image: url(../images/j1.png);
+width: 80px;
+}
+.jicon.jicon2{
+  background-image: url(../images/j2.png);
+  width: 100px;
+  }
+.jt1{
+  font-size: 35px;
+  color: #CAE080;
+}
+.jt2{
+  font-size: 35px;
+  color: #fff;
+}
+.RBoxContent .ChBox{
+  text-align: left;
+}
+.AbtHd{
+  margin-bottom: 20px;
+}
+.RBoxContent{
+  max-width: 1200px;
+}
+.wavy1{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.wavy2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.AbBannerBox{
+  margin-bottom: -15px;
+}
+footer{
+  position: relative;
+}
+.AbBannerBoxContent{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.AbBannerBoxContent .container > div{
+  max-width: 450px;
+}
+.Ad1{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.Ad2{
+  font-size: 17px;
+}
 @media only screen and (max-width: 1000px) {
   .BnT1{
     font-size: 30px;
@@ -1212,5 +1310,43 @@ text-align: center;
   }
   .abSec2 .LinkTp1{
     margin-bottom: 20px;
+  }
+  .IconBoxWrap .row{
+    justify-content: center;
+  }
+  .IconBoxWrap .col-md-3{
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  }
+  .bg2 {
+    margin-top: -6px;
+    margin-bottom: -6px;
+  }
+  .AbtHdLeft {
+    flex: 0 0 70px;
+    max-width: 70px;
+  }
+  .jicon{
+    height: 70px;
+  }
+  .jicon.jicon1 {
+    width: 45px;
+  }
+  .jt1 {
+    font-size: 25px;
+  }
+  .jt2 {
+    font-size: 25px;
+  }
+  .jicon.jicon2 {
+    width: 50px;
+  }
+  .AbtHd {
+    margin-bottom: 10px;
+  }
+  .BrandsSliderWrap{
+margin-top: 20px;
+margin-left: -15px;
+margin-right: -15px;
   }
 }
