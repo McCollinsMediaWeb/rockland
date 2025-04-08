@@ -1562,5 +1562,16 @@ text-align: center;
   .DsChannelBox{
     margin-top: 0 !important;
   }
+  .Chd1 {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+  .cntpage .crowItem {
+    font-size: 17px;
+  }
+  .ChMobi{
+    margin-top: 25px;
+  }
   
 }
