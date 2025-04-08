@@ -1349,4 +1349,11 @@ margin-top: 20px;
 margin-left: -15px;
 margin-right: -15px;
   }
+  .AbBannerBoxContent{
+text-align: center;
+  }
+  .Ad1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 }
